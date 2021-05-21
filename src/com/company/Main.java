@@ -28,6 +28,7 @@ public class Main {
         if (subStr.length == 2) {
             System.out.println(subStr[0] + "" + subStr[1]);
         }
+        /*Ниже определение чтроки или числа*/
         if (new Scanner(subStr[1]).hasNextInt()) {
             int number = Integer.parseInt(string);
             System.out.printf( "ЧИСЛО");
@@ -37,22 +38,9 @@ public class Main {
 
 
 
-/*
-
-
-*/
-
-
         in.close();
     }
 
 
 
-    /* String[] subStr;
-      String delimeter = "-"; // Разделитель
-      subStr = str.split(delimeter); // Разделения строки str с помощью метода split()
-      // Вывод результата на экран
-      for(int i = 0; i < subStr.length; i++) {
-         System.out.println(subStr[i]);
-      }*/
 }
